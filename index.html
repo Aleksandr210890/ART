@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>АРТПРОЕКТ - будуємо майбутнє</title>
+  <style>
+    body {margin:0; font-family:Arial, sans-serif; color:#333;}
+    header {background:#111; color:#fff; padding:20px; text-align:center;}
+    header img {max-height:60px; vertical-align:middle; margin-right:15px;}
+    header h1 {display:inline-block; font-size:2.5em; margin:0; vertical-align:middle;}
+    nav {background:#333; padding:10px; text-align:center;}
+    nav a {color:#fff; text-decoration:none; margin:0 15px; font-weight:bold;}
+    nav a:hover {text-decoration:underline;}
+    section {padding:40px;}
+    .hero {position:relative; text-align:center; color:#fff;}
+    .hero img {width:100%; max-height:500px; object-fit:cover; opacity:0.9;}
+    .hero-text {position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}
+    .hero-text h2 {font-size:2.5em; margin:0;}
+    .hero-text p {font-size:1.2em;}
+    .services {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px;}
+    .service {border:1px solid #ddd; border-radius:10px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.1); background:#fff;}
+    .service img {width:100%; height:auto;}
+    .service h3 {margin:10px;}
+    .service p {margin:10px; color:#555;}
+    .portfolio {display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:20px;}
+    .portfolio img {width:100%; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.15);}
+    footer {background:#111; color:#fff; text-align:center; padding:20px;}
+
+    /* Кнопка зв'язатися */
+    .contact-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #2ecc71;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      z-index: 1000;
+      transition: background 0.3s;
+    }
+    .contact-button:hover {
+      background: #27ae60;
+    }
+  </style>
+  <link rel="icon" href="Лого АРТ ПРОЕКТ - будуемо майбутьне.png">
+</head>
+<body>
+  <header>
+    <img src="Лого АРТ ПРОЕКТ - будуемо майбутьне.png" alt="Лого АРТПРОЕКТ">
+    <h1>АРТПРОЕКТ</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Головна</a>
+    <a href="#about">Про нас</a>
+    <a href="#services">Послуги</a>
+    <a href="#portfolio">Портфоліо</a>
+    <a href="#contacts">Контакти</a>
+  </nav>
+
+  <section id="home" class="hero">
+    <img src="лоб сайта.jpg" alt="Будівля">
+    <div class="hero-text">
+      <h2>Професійні проектні рішення</h2>
+      <p>Ваш ключ до успішної реалізації проектів</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Про нас</h2>
+    <p>Наша компанія спеціалізується на розробці проектної документації.</p>
+    <p>Архітектурні рішення модульних будинків.</p>
+    <p>Включаючи ПОБ, ПОР і ТК, а також на створенні детальних планів для модернізації об'єктів.</p>
+    <p>Ми пропонуємо комплексні рішення, що забезпечують високий ступінь деталізації та надійності, з урахуванням всіх актуальних вимог і стандартів.</p>
+    <p>АРТПРОЕКТ поєднує інноваційні технології та професійний досвід, щоб кожен проект був не лише якісним, але й сучасним.</p>
+    <p>Ми орієнтуємося на індивідуальні потреби клієнта, забезпечуючи оптимальні технічні та архітектурні рішення.</p>
+  </section>
+
+  <section id="services">
+    <h2>Наші послуги</h2>
+    <div class="services">
+      <div class="service">
+        <img src="план дома 2.jpg" alt="Будинок">
+        <h3>Проектування будинків</h3>
+        <p>Розробка проектів житлових та комерційних будівель з урахуванням сучасних стандартів та модернізацій.</p>
+      </div>
+      <div class="service">
+        <img src="план дома 4.jpg" alt="Проект">
+        <h3>Архітектурні рішення</h3>
+        <p>Планування та проектування оновлень для підвищення ефективності інфраструктури.</p>
+        <p>Індивідуальні архітектурні проекти, що відповідають естетиці та функціональності.</p>
+      </div>
+      <div class="service">
+        <img src="in.jpg" alt="Чертежі">
+        <h3>Проектування документації</h3>
+        <p>Розробка проектної документації (ПОБ, ПОР, ТК) з урахуванням всіх технічних вимог, узгоджених з ДСТУ, ДБН, НПАОП.</p>
+        <p>Проектування інженерних систем (вентиляції, трубопроводів та іншої інфраструктури). Підготовка креслень та технічних карт для реалізації проектів будь-якої складності.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Наші роботи</h2>
+    <div class="portfolio">
+      <img src="R4_result-6.jpg.webp" alt="Проект 1">
+      <img src="R3_result-9.jpg.webp" alt="Проект 2">
+    </div>
+    <p></p>
+    <div class="portfolio">
+      <img src="hom.jpg" alt="Проект 3">
+      <img src="home.jpg" alt="Проект 4">
+    </div>
+    <p></p>
+    <div class="portfolio">
+      <img src="haus.jpg" alt="Проект 5">
+      <img src="xaos.jpg" alt="Проект 6">
+    </div>
+  </section>
+
+  <section id="contacts">
+    <h2>Контакти</h2>
+    <p>Телефон: +380 (98) 827-43-42</p>
+    <p>Email: saytbizz@gmail.com</p>
+    <p>Адреса: м. Кам'янське, Україна</p>
+  </section>
+
+  <footer>
+    <p>© 2025 АРТПРОЕКТ - будуємо майбутнє. Всі права захищено.</p>
+  </footer>
+
+  <!-- Кнопка дзвінка -->
+  <a href="tel:+380988274342" class="contact-button">📞</a>
+</body>
+</html>
